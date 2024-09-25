@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #ffffff;
+    min-height: 100vh;
+    /* height: 70vh; */
+}
+
+.leftSide {
+    width: 70%;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.leftSide h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.leftSide h1 span {
+    color: #0070f3;
+}
+
+.leftSide p {
+    margin: 1rem 0;
+    color: #666;
+}
+
+.buttonGroup {
+    margin-top: 2rem;
+}
+
+.iconSection {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333333;
+}
+
+.button {
+    background-color: #0070f3;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.rightSide {
+    width: 45%;
+    height: 50%;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.rightSide h2 {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formGroup input {
+    width: 48%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.input,
+.textarea {
+    padding: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.textarea {
+    height: 100px;
+}
+
+.submitButton {
+    background-color: #0070f3;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: flex-start;
+}
